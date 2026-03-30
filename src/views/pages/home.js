@@ -1,34 +1,36 @@
 module.exports = () => {
     return `
     <main>
-        <!-- Hero Section -->
-        <section class="relative bg-slate-900 pt-20 pb-32 md:pb-40 overflow-hidden min-h-[90vh] flex items-center">
+       <section class="relative bg-slate-900 pt-24 pb-32 sm:pt-32 sm:pb-40 md:pt-48 md:pb-60 overflow-hidden min-h-[85vh] lg:min-h-screen flex items-center">
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1920" 
              alt="School Building" 
-             class="w-full h-full object-cover opacity-30">
+             class="w-full h-full object-cover object-center opacity-40">
         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent"></div>
     </div>
 
     <div class="relative z-10 w-full">
-        <div class="max-w-[1280px] px-6 md:px-10 mx-auto">
-            <div class="max-w-3xl">
-                <span class="inline-block py-1 px-4 rounded-full bg-blue-500/20 text-blue-300 text-xs md:text-sm font-bold tracking-wider uppercase mb-6 border border-blue-500/30 backdrop-blur-sm">
-                    Unggul & Berkarakter
+        <div class="max-w-7xl px-5 sm:px-10 mx-auto">
+            <div class="max-w-4xl">
+                <span class="inline-block py-1 px-3 sm:px-4 rounded-full bg-blue-500/20 text-blue-300 text-[10px] sm:text-xs md:text-sm font-bold tracking-widest uppercase mb-4 sm:mb-6 border border-blue-500/30 backdrop-blur-md">
+                    ✨ Unggul & Berkarakter
                 </span>
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.1] mb-6">
-                    Membangun Masa Depan <br class="hidden md:block">
+                
+                <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-[1.2] sm:leading-[1.1] mb-6">
+                    Membangun Masa Depan <br class="hidden sm:block">
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Generasi Emas</span>
                 </h1>
-                <p class="text-base md:text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl font-light">
-                    Sekolah Modern Nusantara (SMN 1) berdedikasi untuk menciptakan lingkungan belajar yang inovatif, inspiratif, dan berpusat pada pengembangan karakter siswa.
+                
+                <p class="text-sm sm:text-lg md:text-xl text-slate-300 mb-8 sm:mb-10 leading-relaxed max-w-xl md:max-w-2xl font-light">
+                    Sekolah Modern Nusantara (SMN 1) berdedikasi menciptakan lingkungan belajar inovatif dan berpusat pada karakter siswa.
                 </p>
+                
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="/contact" class="px-8 py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all text-center shadow-lg shadow-blue-500/30">
+                    <a href="/contact" class="w-full sm:w-auto px-8 py-4 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 hover:scale-105 transition-all text-center shadow-lg shadow-blue-500/25">
                         Daftar Sekarang
                     </a>
-                    <a href="/profile" class="px-8 py-4 bg-white/10 text-white border border-white/20 rounded-xl font-bold hover:bg-white/20 transition-all text-center backdrop-blur-sm">
-                        Kenali Kami Lebih Jauh
+                    <a href="/profile" class="w-full sm:w-auto px-8 py-4 bg-white/10 text-white border border-white/20 rounded-xl font-bold hover:bg-white/20 transition-all text-center backdrop-blur-sm">
+                        Kenali Kami
                     </a>
                 </div>
             </div>
@@ -36,52 +38,28 @@ module.exports = () => {
     </div>
 </section>
 
-<section class="relative z-20 -mt-12 md:-mt-16 px-4">
-    <div class="max-w-[1280px] mx-auto bg-white rounded-3xl shadow-2xl border border-slate-100 overflow-hidden">
+<section class="relative z-20 -mt-12 sm:-mt-16 md:-mt-24 px-4 sm:px-6">
+    <div class="max-w-7xl mx-auto bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-100 overflow-hidden">
         <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-slate-100">
-            <div class="p-8 text-center">
-                <h3 class="text-3xl md:text-4xl font-extrabold text-blue-600 mb-1">A</h3>
-                <p class="text-slate-500 font-semibold text-xs uppercase tracking-widest">Akreditasi</p>
+            <div class="p-6 sm:p-10 text-center hover:bg-slate-50 transition-colors">
+                <h3 class="text-2xl sm:text-4xl md:text-5xl font-black text-blue-600 mb-1">A</h3>
+                <p class="text-slate-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest">Akreditasi</p>
             </div>
-            <div class="p-8 text-center">
-                <h3 class="text-3xl md:text-4xl font-extrabold text-blue-600 mb-1">60+</h3>
-                <p class="text-slate-500 font-semibold text-xs uppercase tracking-widest">Guru Ahli</p>
+            <div class="p-6 sm:p-10 text-center hover:bg-slate-50 transition-colors">
+                <h3 class="text-2xl sm:text-4xl md:text-5xl font-black text-blue-600 mb-1">60+</h3>
+                <p class="text-slate-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest">Guru Ahli</p>
             </div>
-            <div class="p-8 text-center">
-                <h3 class="text-3xl md:text-4xl font-extrabold text-blue-600 mb-1">1.2K</h3>
-                <p class="text-slate-500 font-semibold text-xs uppercase tracking-widest">Siswa Aktif</p>
+            <div class="p-6 sm:p-10 text-center hover:bg-slate-50 transition-colors border-t-0">
+                <h3 class="text-2xl sm:text-4xl md:text-5xl font-black text-blue-600 mb-1">1.2K</h3>
+                <p class="text-slate-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest">Siswa Aktif</p>
             </div>
-            <div class="p-8 text-center">
-                <h3 class="text-3xl md:text-4xl font-extrabold text-blue-600 mb-1">15+</h3>
-                <p class="text-slate-500 font-semibold text-xs uppercase tracking-widest">Tahun Berdiri</p>
+            <div class="p-6 sm:p-10 text-center hover:bg-slate-50 transition-colors">
+                <h3 class="text-2xl sm:text-4xl md:text-5xl font-black text-blue-600 mb-1">15+</h3>
+                <p class="text-slate-500 font-bold text-[10px] sm:text-xs uppercase tracking-widest">Tahun Berdiri</p>
             </div>
         </div>
     </div>
 </section>
-
-
-
-        <!-- Stats Section -->
-        <section class="py-12 bg-white border-b border-slate-100 relative z-20 -mt-10 mx-4 md:mx-10 rounded-2xl shadow-xl max-w-[1280px] xl:mx-auto">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 px-6">
-                <div class="text-center">
-                    <h3 class="text-4xl font-extrabold text-primary mb-2">A</h3>
-                    <p class="text-slate-500 font-medium text-sm uppercase tracking-wide">Akreditasi</p>
-                </div>
-                <div class="text-center">
-                    <h3 class="text-4xl font-extrabold text-primary mb-2">60+</h3>
-                    <p class="text-slate-500 font-medium text-sm uppercase tracking-wide">Guru Ahli</p>
-                </div>
-                <div class="text-center">
-                    <h3 class="text-4xl font-extrabold text-primary mb-2">1.2K</h3>
-                    <p class="text-slate-500 font-medium text-sm uppercase tracking-wide">Siswa Aktif</p>
-                </div>
-                <div class="text-center">
-                    <h3 class="text-4xl font-extrabold text-primary mb-2">15+</h3>
-                    <p class="text-slate-500 font-medium text-sm uppercase tracking-wide">Tahun Pengalaman</p>
-                </div>
-            </div>
-        </section>
 
         <!-- Short Info Section -->
         <section class="py-24 bg-background-light">
